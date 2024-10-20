@@ -81,9 +81,10 @@ button {
       align-items: center;
      background-color: black;
      border: #ccc solid 1px;
+     margin-right: 2rem;
       border-radius: 5rem;
       > input {
-        padding-left: 10px;
+        padding-right: 10px;
         border: none;
         background: transparent;
         border: none;
@@ -180,4 +181,19 @@ button {
   .lanes-container {
     flex-direction: column;
   }
+}
+
+@media (max-width: 768px) {
+  .home {
+  .header{
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    .logo{
+    >p {
+      font-size: 13px;
+    }
+  }
+  }
+}
 }
